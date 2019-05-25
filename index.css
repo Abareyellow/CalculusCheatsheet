@@ -1,0 +1,95 @@
+body {
+  background-color: #31F7C3;
+  padding: 10px;
+  font-family: 'Mada';
+}
+
+.header {
+  background-image: url("Calculus Cheat sheet.png");
+  padding: 150px 100px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #DCDCFF;
+  font-family: 'Mada';
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #F9DBFF;
+  color: #000000;
+  font-family: 'Mada';
+}
+
+.sidenav {
+  height: 80%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  left: 18px;
+  background-color: #D1F5EF;
+  overflow-x: hidden;
+  padding-left: 20px;
+  font-family: 'Mada';
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #A681A0;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #81A687;
+}
+
+.main {
+  margin-left: 200px;
+  font-size: 16px;
+  padding: 0px 10px;
+}
+
+.card {
+  background-color: #FFFF99;
+  padding: 20px;
+  margin-top: 20px;
+  right: 20px;
+}
+
+.leftcolumn {
+  float: left;
+  width: 25%;
+  font-family: 'Mada';
+}
+
+.rightcolumn {
+  float: left;
+  width: 75%;
+  font-family: 'Mada';
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  margin-top: 24px;
+}
+
+
+@media screen and (max-height:450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
