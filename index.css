@@ -4,6 +4,10 @@ body {
   font-family: 'Mada';
 }
 
+ul {
+  list-style-position: outside;
+}
+
 .header {
   background-image: url("Calculus Cheat sheet.png");
   padding: 150px 100px;
@@ -30,14 +34,14 @@ body {
 }
 
 .sidenav {
-  height: 80%;
+  height: 100%;
   width: 160px;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   left: 18px;
   background-color: #D1F5EF;
-  overflow-x: hidden;
   padding-left: 20px;
+  overflow-x: hidden;
   font-family: 'Mada';
 }
 
